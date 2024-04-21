@@ -13,7 +13,6 @@ The application is to facilitate appointment bookings between patients and docto
 - An appointmment can be cancelled, making the doctor available again.
 - Doctors can also set their status to unavailable to prevent them from being booked.
 
-  To run the server,input the command below in your terminal
-  uvicorn main:app --reload
+  To run the server,input the command "uvicorn main:app --reload" in your terminal
 
   To access the API docs provided by swagger, add "/docs" to the url of the running server.
